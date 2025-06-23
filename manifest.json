@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Breakpoints Explorer",
+  "version": "1.0",
+  "description": "Muestra cómo se ve tu sitio en distintos breakpoints.",
+  "permissions": ["scripting", "tabs"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Breakpoints"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["contentScript.js"]
+    }
+  ],
+ 
+  "host_permissions": [
+  "https://*/*",
+  "http://*/*"
+]
+}
+
