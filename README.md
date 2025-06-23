@@ -42,7 +42,7 @@ DevTools te permite inspeccionar un solo tamaño a la vez.
 ### 1. Descargar el proyecto
 Descargá este repositorio como ZIP o clonalo:
 
-git clone https://github.com/tu-usuario/breakpoints-explorer.git
+git clone https://github.com/juancruz12345/breakpoints-explorer.git
 
 ### 2. En Chrome (o Brave, Edge, Vivaldi):
 
@@ -100,13 +100,19 @@ Este proyecto está licenciado bajo la [MIT License](LICENSE).
 
 
 📷 Screenshots
-
+    Extension abierta
 ![Extension abierta](assets/open.png)
 
+
+    "Ver overlays"
 !["Ver overlays"](assets/overlay.png)
 
+
+    "Detectar overflow"
 !["Detectar overflow"](assets/overflow.png)
 
+
+    "Resumen"
 !["Resumen"](assets/resume.png)
 
 
