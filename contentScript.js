@@ -70,30 +70,28 @@ if (!document.getElementById('breakpoints-nav-root')) {
     background: white;
     width: ${width}px;
     height:400px;
-
+    scroll-margin-top: 60px; 
+    resize:both;
+    overflow:scroll;
   }
 
 
-          iframe[data-width="375"] {
+  iframe[data-width="375"] {
   width: 375px;
-}
+  }
 
-iframe[data-width="768"] {
+  iframe[data-width="768"] {
   width: 768px;
-}
+  }
 
-iframe[data-width="1024"] {
+  iframe[data-width="1024"] {
   width: 1024px;
-}
+  }
 
-iframe[data-width="1440"] {
+  iframe[data-width="1440"] {
   width: 1440px;
-}
-
-iframe {
-  scroll-margin-top: 60px; 
-}
-      </style>
+  }
+  </style>
      <div class="container">
       <div class="label">${label} (${width}px)</div>
       <iframe src="${window.location.href}" title="${label} (${width}px)"></iframe>
