@@ -1,8 +1,6 @@
-import { extractDOMData } from './exctractDom.js';
 
-const data = extractDOMData();
 
-console.log(data)
+
 
 
 
@@ -524,5 +522,6 @@ window.addEventListener('toggle-breakpoints-panel', () => {
     removeBreakpointsPanel()
   } else {
     createBreakpointsPanel()
+    
   }
 })
