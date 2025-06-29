@@ -1,3 +1,10 @@
+import { extractDOMData } from './exctractDom.js';
+
+const data = extractDOMData();
+
+console.log(data)
+
+
 
 function createBreakpointsPanel() {
   if (document.getElementById('breakpoints-panel')) return
